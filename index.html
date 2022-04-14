@@ -42,11 +42,13 @@
                               for(a = 0; a < data.length; a++){
                                      output += 
                                      `
-                                     <ul>
-                                         <li><h2>${data[0]}</h2></li>
-                                         <li><b>${data[a][1]}</b></li>
-                                         <li>${data[a][2]}</li>   
-                                     </ul>
+                                <ul>
+                                
+                                   <li><h2>${data[a][0]}</h2></li>
+                                   <li><b>${data[a][1]}</b></li>
+                                   <li>${data[a][2]}</li>
+
+                                </ul>
                                     `        
                               }
                               document.getElementById("posts").innerHTML = output;                         
